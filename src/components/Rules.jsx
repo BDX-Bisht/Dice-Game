@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Rules = () => {
   return (
     <RulesDiv>
-      <h2>How to play Dice Game :-</h2>
+      <h2>How to play Dice Game</h2>
       <ul>
         <li>Select any number.</li>
         <li>Click in the dice image.</li>
