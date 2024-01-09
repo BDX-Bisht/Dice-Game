@@ -31,6 +31,7 @@ const Container = styled.div`
   }
 
   @media (max-width: 780px) {
+    margin-top: 2rem;
     text-align: center;
     display: block;
     justify-content: center;

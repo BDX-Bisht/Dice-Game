@@ -40,7 +40,8 @@ const NumberContainer = styled.div`
   justify-content: center;
 
   .flex {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 24px;
   }
   p {
@@ -54,6 +55,9 @@ const NumberContainer = styled.div`
   @media (max-width: 780px) {
     margin-bottom: 0.5rem;
     align-items: center;
+    .flex {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
     p {
       margin-top: 1rem;
     }
